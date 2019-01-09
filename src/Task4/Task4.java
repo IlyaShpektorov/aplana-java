@@ -1,3 +1,5 @@
+package Task4;
+
 import java.util.Scanner;
 
 /* Задача №4: Отработка арифметических операций Задание
