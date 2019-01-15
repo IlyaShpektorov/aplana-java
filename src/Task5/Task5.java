@@ -2,9 +2,10 @@ package Task5;
 
 import java.util.Scanner;
 
-/* Ввести с консоли число в бинарном формате. 
- * Перевести его в int и вывести на экран. 
- * Для проверки 100101 = 37; 1100001001 = 777*/
+/* Р’РІРµСЃС‚Рё СЃ РєРѕРЅСЃРѕР»Рё С‡РёСЃР»Рѕ РІ Р±РёРЅР°СЂРЅРѕРј С„РѕСЂРјР°С‚Рµ. 
+ * РџРµСЂРµРІРµСЃС‚Рё РµРіРѕ РІ int Рё РІС‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ. 
+ * Р”Р»СЏ РїСЂРѕРІРµСЂРєРё 100101 = 37; 1100001001 = 777*/
+
 public class Task5 {
 	
 	public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class Task5 {
 	 
 	private static void toINT2() {	   
 		Scanner in = new Scanner(System.in);
-		System.out.println("Укажите числовое значение в бинарном формате: ");
+		System.out.println("РЈРєР°Р¶РёС‚Рµ С‡РёСЃР»РѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ Р±РёРЅР°СЂРЅРѕРј С„РѕСЂРјР°С‚Рµ: ");
 		String bin = in.nextLine();
 		  int fin = 0, a = 0, stepen = 0;
 	       char[] symbols = bin.toCharArray();
@@ -43,7 +44,7 @@ public class Task5 {
 	
 	public  void toINT1() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Укажите числовое значение в бинарном формате: ");
+		System.out.println("РЈРєР°Р¶РёС‚Рµ С‡РёСЃР»РѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ Р±РёРЅР°СЂРЅРѕРј С„РѕСЂРјР°С‚Рµ: ");
 		String bin = in.nextLine();
 		int inNum = Integer.parseInt(bin, 2); 
 		in.close();  

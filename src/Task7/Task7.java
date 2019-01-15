@@ -2,7 +2,7 @@ package Task7;
 
 import java.util.Scanner;
 
-//Необходимо с помощью цикла вывести на экран числа от 1 до 50.
+//РќРµРѕР±С…РѕРґРёРјРѕ СЃ РїРѕРјРѕС‰СЊСЋ С†РёРєР»Р° РІС‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 50.
 public class Task7 {
 
 	public static void main(String[] args) {

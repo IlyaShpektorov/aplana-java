@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
-Произведите ввод данных с клавиатуры в массив, а после этого произведите вывод массива на экран, где каждый элемент массива умножается на 2.
+РџСЂРѕРёР·РІРµРґРёС‚Рµ РІРІРѕРґ РґР°РЅРЅС‹С… СЃ РєР»Р°РІРёР°С‚СѓСЂС‹ РІ РјР°СЃСЃРёРІ, Р° РїРѕСЃР»Рµ СЌС‚РѕРіРѕ РїСЂРѕРёР·РІРµРґРёС‚Рµ РІС‹РІРѕРґ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ, РіРґРµ РєР°Р¶РґС‹Р№ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР° СѓРјРЅРѕР¶Р°РµС‚СЃСЏ РЅР° 2.
  */
 public class Task8 {
 
@@ -12,14 +12,14 @@ public class Task8 {
 		
 		 Scanner in = new Scanner(System.in);
 		 Scanner lenght = new Scanner(System.in);
-		 System.out.println("Введите длину массива: ");
+		 System.out.println("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РјР°СЃСЃРёРІР°: ");
 		 	int e = lenght.nextInt();
 		    int numbers [] = new int[e];
 
 		    
 		    for (int i = 0; i < numbers.length; i++)
 		    {
-		        System.out.println("Введите цифру");
+		        System.out.println("Р’РІРµРґРёС‚Рµ С†РёС„СЂСѓ");
 		        numbers[i] = in.nextInt();
 		       int x = numbers[i]*2;
 		    }
