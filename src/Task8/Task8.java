@@ -4,14 +4,17 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
- Произведите ввод данных с клавиатуры в массив, а после этого произведите вывод массива на экран, где каждый элемент массива умножается на 2.
+Произведите ввод данных с клавиатуры в массив, а после этого произведите вывод массива на экран, где каждый элемент массива умножается на 2.
  */
 public class Task8 {
 
 	public static void main(String[] args) {
 		
 		 Scanner in = new Scanner(System.in);
-		    int numbers [] = new int[3];
+		 Scanner lenght = new Scanner(System.in);
+		 System.out.println("Введите длину массива: ");
+		 	int e = lenght.nextInt();
+		    int numbers [] = new int[e];
 
 		    
 		    for (int i = 0; i < numbers.length; i++)
