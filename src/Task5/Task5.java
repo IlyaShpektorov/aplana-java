@@ -28,6 +28,13 @@ public class Task5 {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Укажите числовое значение в бинарном формате: ");
 		String bin = in.nextLine();
+		 String exep = "[0-1]+"; 
+		 if(bin.matches(exep)){
+			 ;
+		 }else {
+			 System.out.println("Ошибка! Введите значение в бинарном формате. Переходим ко 2 вариану:");
+			 return;
+		 }
 		  int fin = 0, a = 0, stepen = 0;
 	       char[] symbols = bin.toCharArray();
 	       for(int len = symbols.length-1; len >= 0; len--){
