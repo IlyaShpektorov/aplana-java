@@ -1,6 +1,7 @@
 package Task17;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -40,26 +41,22 @@ public class Task17 {
         buf.close();
 		
 		//ввод
-		BufferedReader br = 
-				new BufferedReader(
-					new InputStreamReader(System.in));
-		System.out.println("стоп ввода: stop");
-		
-		try (FileWriter fw = new FileWriter(FILE_NAME))
-		{
-			do {
-				System.out.println(": ");
-				str = br.readLine();
-				
-				if(str.compareTo("stop")== 0) break;				
-				str = str+"\r\n";			
-				fw.write(str);
-			        
-			} while(str.compareTo("stop") != 0);
-			     
-		}catch(IOException exc) {
-			System.out.println("Ошибка:" + exc);
-		}
+        BufferedReader br = 
+				 new BufferedReader( 
+				 new InputStreamReader(System.in)); 
+				 ArrayList<String> words = new ArrayList<>(); 
+				 
+				 for (int i = 0; i < lineCount; ++i) { 
+				 words.add(br.readLine()); 
+				 } 
+				 BufferedWriter fw = new BufferedWriter(new FileWriter(FILE_NAME)); 
+				 for (String w : words) { 
+				 fw.write(w); 
+				 fw.append('\n'); 
+				 fw.flush(); 
+				 } 		 
+				 fw.close();
+				 		
 		}
 	}
 
