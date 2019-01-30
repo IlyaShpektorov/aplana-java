@@ -11,9 +11,9 @@ public class Task14 {
 		
 	
 		 Scanner in = new Scanner(System.in);
-		 Scanner lenght = new Scanner(System.in);
+		
 		 System.out.println("Введите длину массива: ");
-		 	int e = lenght.nextInt();
+		 	int e = in.nextInt();
 		    int nums [] = new int[e];
 
 		    
