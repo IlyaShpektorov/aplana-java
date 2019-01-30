@@ -9,7 +9,7 @@ public class FinalTask3 {
 	public static void main(String[] args) {
 		 Scanner course = new Scanner(System.in);
 		 Scanner money = new Scanner(System.in);
-		 System.out.println("Введите курс доллара: ");
+		 System.out.println("Введите курс доллара к рублю: ");
 		 	int c = course.nextInt();
 		 System.out.println("Введите кол-во рублей: ");
 		 	int r = course.nextInt();
