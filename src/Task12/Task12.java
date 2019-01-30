@@ -18,9 +18,11 @@ public class Task12 {
 		 	int length2 = string2.length();
 		 	if  (length1 > length2) {
 		 		System.out.println(string1);
-		 	}else {
+		 	}if (length1 == length2) {
+		 		System.out.println ("Строки одинаковые, попробуем еще раз!");
+			}else {
 		 		System.out.println(string2);
-		 	}
+		 	} 
 	}
 
 }
